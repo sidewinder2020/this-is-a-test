@@ -9,6 +9,10 @@ router
   .get(
     '/',
     DogsController.index
+  ),
+  .post(
+    '/',
+    DogsController.create
   );
 
 export default router;

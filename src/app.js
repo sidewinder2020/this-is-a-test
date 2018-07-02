@@ -1,4 +1,5 @@
 import 'babel-polyfill';
+import dotenv from 'dotenv/config';
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
